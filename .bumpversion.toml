@@ -6,5 +6,5 @@ allow_dirty = true
 
 [[tool.bumpversion.files]]
 filename = "common/version.go"
-search = "Version = \"{current_version}\""
-replace = "Version = \"{new_version}\""
+search = 'const Version = "{current_version}"'
+replace = 'const Version = "{new_version}"'
